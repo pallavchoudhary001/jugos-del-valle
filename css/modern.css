@@ -1,0 +1,52 @@
+/* Modern Aesthetics & Overrides */
+:root {
+    --primary-color: #bb131b;
+    --secondary-color: #9dda19;
+    --text-color: #333;
+    --bg-light: #f8f9fa;
+    --transition-speed: 0.3s;
+}
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* Smooth Scrolling */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Enhancing Hover Effects */
+a {
+    transition: color var(--transition-speed) ease;
+}
+
+.btn,
+button {
+    transition: all var(--transition-speed) ease;
+}
+
+/* Glassmorphism Hints */
+#masthead.fixed {
+    background: rgba(255, 255, 255, 0.95);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+}
+
+/* Card Modernization */
+.card {
+    border: none;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
+    transition: transform var(--transition-speed) ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+/* Remove Santa Clara Background Image */
+.sta-clara-bg {
+    background: #fff !important;
+    background-image: none !important;
+}

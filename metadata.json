@@ -1,0 +1,4 @@
+{
+  "name": "Jugos Del Valle Static SPA",
+  "description": "A high-fidelity static Vanilla JavaScript SPA conversion of the Jugos Del Valle website, replacing the React/Vite/Tailwind stack with a modular, asset-independent local version."
+}
